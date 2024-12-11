@@ -1,0 +1,85 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after{
+  box-sizing: inherit;
+}
+
+body{
+  background-color: #222222;
+  color: #FFFFFF;
+  font-family: 'Asap Condensed', verdana, sans-serif;
+  text-shadow: 1px 1px 1px #000;
+}
+
+h1 {
+  text-align: center;
+  background-color: rgba(50, 50, 50, 0.5);
+}
+
+h2 {
+  font-size: 1em;
+  font-weight: normal;
+  background-color: rgba(50, 50, 50, 0.5);
+  max-width: 100px;
+  padding: 0.4em;
+  border-radius: 0.2em;
+
+}
+
+.grid-container > div {
+  padding: 0.2em 1em;
+}
+
+.grid-container > div:nth-child(1) {
+    background-color: #2a80b9;
+}
+.grid-container > div:nth-child(2) {
+    background-color: #8f44ad;
+}
+.grid-container > div:nth-child(3) {
+    background-color: #16a086;
+}
+.grid-container > div:nth-child(4) {
+    background-color: #f1c40f;
+}
+.grid-container > div:nth-child(5) {
+    background-color: #e77e23;
+}
+.grid-container > div:nth-child(6) {
+    background-color: #e84c3d;
+}
+.grid-container > div:nth-child(7) {
+    background-color: #2a80b9;
+    background-image: url('lines.svg');
+}
+.grid-container > div:nth-child(8) {
+    background-color: #8f44ad;
+    background-image: url('lines.svg');
+}
+.grid-container > div:nth-child(9) {
+    background-color: #16a086;
+    background-image: url('lines.svg');
+}
+.grid-container > div:nth-child(11) {
+    background-color: #f1c40f;
+    background-image: url('lines.svg');
+}
+.grid-container > div:nth-child(12) {
+    background-color: #e77e23;
+    background-image: url('lines.svg');
+}
+.grid-container > div:nth-child(13) {
+    background-color: #e84c3d;
+    background-image: url('lines.svg');
+}
+.grid-container > div:nth-child(14) {
+    background-color: #34495e;
+    background-image: url('lines.svg');
+}
+
+
+
